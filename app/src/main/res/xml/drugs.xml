@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<drug name="Acetaminophen">
+		<indications>
+			<i>
+				Indicated for Pain and Fever Control
+			</i>
+			<i>
+				Avoid in patients with severe liver disease
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				1000mg PO
+			</adult_dose>
+
+			<ped_dose>
+				15mg/kg
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Adenosine">
+		<indications>
+			<i>
+				Specifically for treatment or diagnosis of Supraventricular Tachycardia
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				6 mg IV push over 1-3 seconds. If no effect after 1-2 minutes, Repeat with 12 mg IV push over 1-3 seconds.
+			</adult_dose>
+			<adult_dose>
+				Repeat once if necessary
+			</adult_dose>
+			<adult_dose>
+				(use stopcock and 20 ml Normal Saline flush with each dose)
+			</adult_dose>
+
+			<ped_dose>
+				0.1 mg/kg IV (Max 6 mg) push over 1-3 seconds. If no effect after 1-2 minutes,
+			</ped_dose>
+			<ped_dose>
+				Repeat with 0.2 mg/kg IV (Max 12 mg) push over 1-3 seconds.
+			</ped_dose>
+			<ped_dose>
+				Repeat once if necessary
+			</ped_dose>
+			<ped_dose>
+				(use stopcock and Normal Saline flush with each dose)
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Albuterol">
+		<indications>
+			<i>
+				Beta-Agonist nebulized treatment for use in respiratory distress with bronchospasm
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				2.5-5.0 mg (3cc) in nebulizer continuously x 3 doses. See local protocol for relative contraindications and/or indications to contact medical control for use of this drug.
+			</adult_dose>
+
+			<ped_dose>
+				2.5mg (3cc) in nebulizer continuously x 3 doses. See local protocol for relative contraindications and/or indications to contact medical control for use of this drug.
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Amiodarone">
+		<indications>
+			<i>
+				Antiarrhythmic used mainly in wide complex tachycardia and ventricular fibrillation.
+			</i>
+			<i>
+				Avoid in patients with heart block or profound bradycardia.
+			</i>
+			<i>
+				Contraindicated in patients with iodine hypersensitivity
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>V-Fib/Pulseless V-Tach:
+300 mg IV push
+Repeat dose of 150 mg IV push
+for recurrent episodes
+			</adult_dose>
+			<adult_dose>V-Tach With A Pulse:
+150 mg in 100cc D5W over 10 min
+			</adult_dose>
+
+			<ped_dose>V-Fib/Pulseless V-Tach:
+5 mg/kg IV push over 5 minutes
+May repeat up to 15mg/kg IV
+			</ped_dose>
+			<ped_dose>V-Tach With A Pulse:
+5 mg/kg IV push over 5 minutes
+May repeat up to 15mg/kg IV
+Avoid in Length Tape Color Pink
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Aspirin">
+		<indications>
+			<i>
+				An antiplatelet drug for use in cardiac chest pain
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>81 mg chewable (baby) Aspirin Give 4 tablets to equal usual adult dose</adult_dose>
+
+			<ped_dose>
+				None
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Atropine">
+		<indications>
+			<i>
+				Anticholinergic drug used in bradycardias
+			</i>
+			<i>
+				(For Endotracheal Tube use of this drug, double the dose)
+			</i>
+			<i>
+				In Organophosphate toxicity, large doses may be required (>10 mg)
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>Bradycardia:
+0.5 - 1.0 mg IV every 3 – 5 minutes	up to 3 mg.	(If endotracheal -- max 6 mg)
+			</adult_dose>
+			<adult_dose>Organophosphate:
+	1-2 mg IM or IV otherwise as per medical control
+			</adult_dose>
+
+			<ped_dose>Bradycardia:
+0.02 mg/kg IV, IO (Max 0.5 mg
+per dose, Max total dose 1mg IV)
+(Min 0.1 mg) per dose
+May repeat in 3 - 5 minutes
+			</ped_dose>
+			<ped_dose>
+				Organophosphate:
+0.05 mg/kg IV or IO otherwise as per medical control
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Nerve Agent Kit">
+		<indications>
+			<i>
+				Antidote for Nerve Agents or Organophosphate Overdose
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				One auto-injector then per medical control
+			</adult_dose>
+
+			<ped_dose>
+				One pediatric auto-injector then as per medical control
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Calcium Chloride">
+		<indications>
+			<i>
+				Indicated for severe hyperkalemia
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				1 gm IV / IO
+			</adult_dose>
+			<adult_dose>
+				Avoid use if pt is taking digoxin
+			</adult_dose>
+
+			<ped_dose>
+				20 mg/kg IV or IO slowly
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Dextrose">
+		<indications>
+			<i>
+				Use in altered mental status or hypoglycemic states
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				See local protocol for concentration and dosing
+			</adult_dose>
+
+			<ped_dose>
+				See local protocol for concentration and dosing
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Diazepam">
+		<indications>
+			<i>
+				Seizure control
+			</i>
+			<i>
+				Mild Sedation
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				4 mg IV / IO initially then 2 mg IV / IO every 3 - 5 minutes up to 10 mg max unless med control dictates
+			</adult_dose>
+			<adult_dose>Do not administer IM. The drug is not absorbed.
+			</adult_dose>
+			<adult_dose>
+				10 mg Rectally if unable to obtain an IV.
+			</adult_dose>
+
+			<ped_dose>
+				0.1 - 0.3 mg/kg IV/IO
+			</ped_dose>
+			<ped_dose>
+				(Max dose 4 mg IV, IO)
+			</ped_dose>
+			<ped_dose>
+				0.5 mg/kg rectally (Dia-Stat)
+			</ped_dose>
+			<ped_dose>
+				(Max dose 10 mg rectally)
+			</ped_dose>
+			<ped_dose>
+				Repeat as directed by local protocol
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Diltiazem">
+		<indications>
+			<i>
+				Calcium channel blocker used to treat narrow complex SVT
+			</i>
+			<i>
+				Contraindicated in patients with heart block, ventricular tachycardia, and/or acute MI
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				See local protocol for dosing
+			</adult_dose>
+
+			<ped_dose>
+				None.
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Diphenhydramine">
+		<indications>
+			<i>
+				Antihistamine for control of allergic reactions
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				25-50 mg IV/IO/IM/PO
+			</adult_dose>
+
+			<ped_dose>
+				1 mg/kg IV/IO/IM/PO
+			</ped_dose>
+			<ped_dose>
+				Do not give in infants less than 3 mo
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Dopamine">
+		<indications>
+			<i>
+				A vasopressor used in shock or hypotensive states
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				2 - 20 micrograms/kg/min IV or IO, titrate to BP systolic of 90 mmHg
+			</adult_dose>
+
+			<ped_dose>
+				2 - 20 micrograms/kg/min IV or IO, titrate to BP systolic appropriate for age
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Epinephrine 1:1,000">
+		<indications>
+			<i>
+				Vasopressor used in allergic reactions or anaphylaxis
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				0.3 mg IM
+			</adult_dose>
+			<adult_dose>
+				See local protocol for relative contraindications and/or indications to contact medical control for use of this drug.
+			</adult_dose>
+			<adult_dose>
+				Nebulized: 1 mg mixed with 2 ml of Normal Saline
+			</adult_dose>
+
+			<ped_dose>
+				0.01 mg/kg IM
+			</ped_dose>
+			<ped_dose>
+				(Max dose 0.3 mg)
+			</ped_dose>
+			<ped_dose>
+				Nebulized: 1 mg mixed with 2 ml of Normal Saline
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Epinephrine 1:10,000">
+		<indications>
+			<i>
+				Vasopressor used in cardiac arrest.
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				1.0 mg IV / IO
+			</adult_dose>
+			<adult_dose>
+				Repeat every 3 - 5 minutes until observe response
+			</adult_dose>
+			<adult_dose>
+				(May be given by Endotracheal tube in double the IV dose)
+			</adult_dose>
+
+			<ped_dose>
+				0.01 mg/kg IV or IO
+			</ped_dose>
+			<ped_dose>
+				(Max dose 1 mg)
+			</ped_dose>
+			<ped_dose>
+				Repeat every 3 - 5 minutes per protocol
+			</ped_dose>
+			<ped_dose>
+				(May be given by Endotracheal tube in double the IV dose)
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Etomidate">
+		<indications>
+			<i>
+				Sedative used in Drug Assisted Intubation
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				0.3 mg/kg IV / IO
+			</adult_dose>
+			<adult_dose>
+				Usual adult dose = 20 mg
+			</adult_dose>
+
+			<ped_dose>
+				None
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Fentanyl">
+		<indications>
+			<i>
+				Narcotic pain relief
+			</i>
+			<i>
+				Possible beneficial effect in pulmonary edema
+			</i>
+			<i>
+				Avoid use if BP &lt; 110
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>50-75 mcg IM/IV/IO bolus then 25
+mcg IM/IV/IO every 20 minutes
+until a maximum of 200 mcg or
+clinical improvement
+			</adult_dose>
+
+			<ped_dose>1 mcg/kg IM/IN/IV/IO
+May repeat 0.5 mcg/kg every 5
+minutes
+Maximum dose 2 mcg/kg
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Furosemide">
+		<indications>
+			<i>
+				Diuretic for pulmonary edema or CHF but no proven benefit in prehospital care
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				See local protocol for dosing guidelines
+			</adult_dose>
+
+			<ped_dose>
+				See local protocol for dosing guidelines
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Glucagon">
+		<indications>
+			<i>
+				Drug acting to release glucose into blood stream by glycogen breakdown
+			</i>
+			<i>
+			    Use in patients with no IV access
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				1 - 2 mg IM
+			</adult_dose>
+			<adult_dose>
+			    Repeat blood glucose measurement in 15 minutes, if ≤ 69 mg / dl repeat dose.
+			</adult_dose>
+
+			<ped_dose>
+				0.1 mg/kg IM, Maximum 1 mg
+			</ped_dose>
+			<ped_dose>
+				Repeat blood glucose measurement in 15 minutes, if ≤ 69 mg / dl repeat dose.
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Oral Glucose">
+		<indications>
+			<i>
+				Use in conscious hypoglycemic states
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				One tube or packet
+			</adult_dose>
+			<adult_dose>
+			    Repeat based on blood glucose results, per protocol
+			</adult_dose>
+
+			<ped_dose>
+				One Tube or packet
+			</ped_dose>
+			<ped_dose>
+				Repeat based on blood glucose results, per protocol
+			</ped_dose>
+			<ped_dose>
+			    Consider patient’s ability to swallow and follow directions based on age
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Haloperidol">
+		<indications>
+			<i>
+				Medication to assist with sedation of agitated patients
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				2.5-10 mg IV/IM, per local protocol
+			</adult_dose>
+			<adult_dose>
+			    See local protocol for relative contraindications and/or indications to contact medical control for use of this drug.
+			</adult_dose>
+
+			<ped_dose>
+				None
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Ibuprofen">
+		<indications>
+			<i>
+				Avoid NSAIDS in women who are pregnant or could be pregnant.
+			</i>
+			<i>
+			    A nonsteroidal anti-inflammatory drug (NSAID) used for pain and fever control.
+			</i>
+			<i>
+			    Not to be used in patients with history of GI Bleeding (ulcers) or renal insufficiency.
+			</i>
+			<i>
+			    Not to be used in patients with allergies to aspirin or other NSAID drugs
+			</i>
+			<i>
+			    Avoid in patients currently taking anticoagulants, such as coumadin.
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				400-800 mg po
+			</adult_dose>
+
+			<ped_dose>
+				10 mg/kg po
+			</ped_dose>
+			<ped_dose>
+				Do not use in patients 6 months of age or younger
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Ipratropium">
+		<indications>
+			<i>
+				Medication used in addition to albuterol to assist in patients with asthma and COPD
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				2 puffs per dose of MDI (18 mcg/spray)
+---OR---
+0.5 mg per nebulizer treatment
+			</adult_dose>
+
+			<ped_dose>
+				Use in Pediatrics as a combined Therapy with a Beta Agonist such as Albuterol
+			</ped_dose>
+			<ped_dose>
+				2 puffs per dose of MDI (18 mcg/spray)
+---OR---
+0.5 mg per nebulizer treatment
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Ketorolac">
+		<indications>
+			<i>
+				Avoid NSAIDS in women who are pregnant or could be pregnant
+			</i>
+			<i>
+				A nonsteroidal anti-inflammatory drug used for pain control.
+			</i>
+			<i>
+				Not to be used in patients with history of GI bleeding (ulcers), renal insufficiency, or in patients who may need immediate surgical intervention (i.e. obvious fractures).
+			</i>
+			<i>
+				Not to be used in patients with allergies to aspirin or other NSAID drugs such as motrin
+			</i>
+			<i>
+				Avoid in patients currently taking anticoagulants such as coumadin
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				30 mg IV / IO or 60 mg IM
+			</adult_dose>
+
+			<ped_dose>
+				0.5 mg/kg IV / IO / IM Maximum 30 mg
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Lactated Ringer’s Solution">
+		<indications>
+			<i>
+				Crystalloid solution preferred for fluid rescuscitation and preferred in burn care.
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				Dosing per protocol, similar to Normal Saline
+			</adult_dose>
+
+			<ped_dose>
+				Dosing per protocol, similar to Normal Saline
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Lidocaine">
+		<indications>
+			<i>
+				Antiarrhythmic used for control of ventricular dysrrythmias
+			</i>
+			<i>
+				See local protocol for specific dosing algorithm
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				1.5 mg/kg IV / IO bolus (ETT dose = 2 x IV dose) up to 3mg/kg max bolus dose
+			</adult_dose>
+			
+			<ped_dose>
+				1 mg/kg IV / IO
+Maximum 100 mg
+Repeat 0.5 mg/kg
+Maximum 3 mg/kg total
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Magnesium Sulfate">
+		<indications>
+			<i>
+				Elemental electrolyte used to treat eclampsia during the third trimester of pregnancy
+			</i>
+			<i>
+				A smooth muscle relaxor used in refractory respiratory distress resistent to beta-agonists
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				Respiriatory Distress:
+2 g IV / IO over 10 minutes
+Repeat dosing per local protocol
+			</adult_dose>
+			<adult_dose>
+				Obstetrical Seizure:
+2 g IV / IO over 2-3 minutes
+Dose may be repeated once, or as per local protocol
+			</adult_dose>
+			
+			<ped_dose>
+				40 mg/kg IV / IO over 20 minutes (Max 2 gms)
+			</ped_dose>
+			<ped_dose>
+				Repeat dosing per local protocol
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Methylprednisolone">
+		<indications>
+			<i>
+				Steroid used in respiratory distress to reverse inflammatory and allergic reactions
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				125 mg IV / IO
+			</adult_dose>
+			<adult_dose>
+				IM dosing only if indicated by local protocol
+			</adult_dose>
+			
+			<ped_dose>
+				2 mg/kg IV / IO (Max 125 mg)
+			</ped_dose>
+			<ped_dose>
+				IM dosing only if indicated by local protocol
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Midazolam">
+		<indications>
+			<i>
+				Benzodiazepine used to control seizures and sedation
+			</i>
+			<i>
+				Quick acting Benzodiazepine
+			</i>
+			<i>
+				Preferred over Valium for IM use
+			</i>
+			<i>
+				Use with caution if BP &lt; 110
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				See individual protocols for dosing
+			</adult_dose>
+			<adult_dose>
+				Usual total dose: 2.5-5 mg IV / IO / IM
+			</adult_dose>
+			
+			<ped_dose>
+				See individual protocols for dosing
+			</ped_dose>
+			<ped_dose>
+				Usual total dose 0.1-0.2 mg/kg IV / IO / IM / IN
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Morphine Sulfate">
+		<indications>
+			<i>
+				Narcotic pain relief
+			</i>
+			<i>
+				Possible beneficial effect in pulmonary edema
+			</i>
+			<i>
+				Avoid use if BP &lt; 110
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				4 mg IM/IV/IO bolus then 2 mg IM/IV/IO every 5-10 minutes until a maximum of 10 mg or clinical improvement
+			</adult_dose>
+			<ped_dose>
+				0.1 mg/kg IV / IO / IM
+May repeat every 5 minutes
+Maximum single dose 5 mg
+Maximum dose 10 mg
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Naloxone">
+		<indications>
+			<i>
+				Narcotic antagonist
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				0.4 - 2 mg IV / IO / IM / IN / ETT bolus titrated to patient’s respiratory response
+			</adult_dose>
+			<ped_dose>
+				0.1 mg/kg IV / IO / IN / IM / ETT (Max 2 mg)
+			</ped_dose>
+			<ped_dose>
+				Repeat as per protocol
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Normal Saline">
+		<indications>
+			<i>
+				IV fluid for IV access or volume infusion
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				See individual protocol for bolus dosing and/or infusion rate
+			</adult_dose>
+			<ped_dose>
+				See individual protocol for bolus dosing and/or infusion rate
+			</ped_dose>
+			<ped_dose>
+				Usual initial bolus 20 mL / kg IV / IO
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Nitroglycerine">
+		<indications>
+			<i>
+				Vasodilator used in anginal syndromes and CHF.
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				0.3 / 0.4 mg SL every 5 minutes until painfree
+			</adult_dose>
+			<adult_dose>
+				See Chest Pain Protocol for paste dosing
+			</adult_dose>
+			<ped_dose>
+				None
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Nitrous Oxide">
+		<indications>
+			<i>
+				Medication used to assist with control of pain
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				Inhaled gas to effect per local protocol
+			</adult_dose>
+			<ped_dose>
+				Inhaled gas to effect per local protocol
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Ondansetron">
+		<indications>
+			<i>
+				Anti-Emetic used to control Nausea and/or Vomiting
+			</i>
+			<i>
+				Ondansetron (Zofran) is the recommended Anti-emetic for EMS use since it is associated with significantly less side effects and sedation.
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				4 mg IV / IO / IM / PO / ODT
+			</adult_dose>
+			<adult_dose>
+				Repeat only as per local protocol
+			</adult_dose>
+			<ped_dose>
+				0.15 mg/kg IV / IO / IM (Max 4 mg)
+			</ped_dose>
+			<ped_dose>
+				0.2 mg/kg PO / ODT (Max 4 mg)
+			</ped_dose>
+			<ped_dose>
+			    Repeat only as per local protocol
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Oxygen">
+		<indications>
+			<i>
+				Indicated in any condition with increased cardiac work load, respiratory distress, or illness or injury resulting in altered ventilation and/or perfusion. Goal oxygen saturation 94-99%
+			</i>
+			<i>
+				Indicated for pre-oxygenation whenever possible prior to endotracheal intubation. Goal oxygen saturation 100%.
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				1-4 liters/min via nasal cannula
+			</adult_dose>
+			<adult_dose>
+				6-15 liters/min via NRB mask
+			</adult_dose>
+			<adult_dose>
+			    15 liters via BVM / ETT / BIAD
+			</adult_dose>
+			<ped_dose>
+				1-4 liters/min via nasal cannula
+			</ped_dose>
+			<ped_dose>
+				6-15 liters/min via NRB mask
+			</ped_dose>
+			<ped_dose>
+			    15 liters via BVM / ETT / BIAD
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Oxymetazoline">
+		<indications>
+			<i>
+				Vasoconstrictor used with nasal intubation and epistaxis
+			</i>
+			<i>
+				Relative Contraindication is significant hypertension
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				2 sprays in affected nostril
+			</adult_dose>
+			<adult_dose>
+				Usual concentration is 0.05% by volume
+			</adult_dose>
+			<ped_dose>
+				1-2 sprays in affected nostril
+			</ped_dose>
+			<ped_dose>
+				Usual concentration is 0.05% by volume
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Pralidoxime">
+		<indications>
+			<i>
+				Antidote for Nerve Agents or Organophosphate Overdose
+			</i>
+			<i>
+				Administered with Atropine
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				600 mg IV / IO / IM over 30 minutes for minor symptoms
+			</adult_dose>
+			<adult_dose>
+				1800 mg IV / IO / IM over 30 minutes for major symptoms
+			</adult_dose>
+			<adult_dose>
+				See local protocol for minor versus major indications
+			</adult_dose>
+			<ped_dose>
+				15 – 25 mg/kg IV / IM / IO over 30 minutes
+			</ped_dose>
+			<ped_dose>
+				See local protocol for specific pediatric dosing recommendations
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Promethazine">
+		<indications>
+			<i>
+				IV Promethazine (Phenergan) should be given IV only with great caution. Extravasation of this drug can result in significant local tissue damage.
+			</i>
+			<i>
+				Anti-Emetic used to control Nausea and/or Vomiting
+			</i>
+			<i>
+			    Ondansetron (Zofran) is the recommended Anti-emetic for EMS use since it is associated with significantly less side effects and sedation.Anti-Emetic used to control Nausea and/or Vomiting
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				12.5 mg IV / IO / IM
+			</adult_dose>
+			<adult_dose>
+				May repeat as per local protocol
+			</adult_dose>
+			<ped_dose>
+				None
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Rocuronium">
+		<indications>
+			<i>
+				Non-depolarizing paralytic agent used as a component of drug assisted intubation (Rapid Sequence Intubation), when succinylcholine is contraindicated
+			</i>
+			<i>
+				Onset of action is longer than succinylcholine, up to 3 minutes, patient will NOT defasciculate
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				1 mg / kg IV / IO
+			</adult_dose>
+			<adult_dose>
+				Only may repeat x1 per RSI protocol
+			</adult_dose>
+			<ped_dose>
+				None
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Sodium Bicarbonate">
+		<indications>
+			<i>
+				A buffer used in acidosis to increase the pH in Cardiac Arrest Hyperkalemia or Tricyclic Overdose
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				Initial bolus 50 mEq IV / IO
+			</adult_dose>
+			<adult_dose>
+				See individual protocol for specific dosing algorithm
+			</adult_dose>
+			<ped_dose>
+				Initial bolus 1 mEq / kg IV / IO
+			</ped_dose>
+			<ped_dose>
+				Maximum 50 mEq
+			</ped_dose>
+			<ped_dose>
+				See individual protocol for specific dosing algorithm
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Succinylcholine">
+		<indications>
+			<i>
+				Paralytic Agent used as a component of Drug Assisted Intubation (Rapid Sequence Intubation)
+			</i>
+			<i>
+				Avoid in patients with burns greater than 24 hours old, chronic neuromuscular disease (e.g., muscular dystrophy), ESRD, or other situation in which hyperkalemia is likely.
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				1.5 mg/kg IV / IO
+			</adult_dose>
+			<adult_dose>
+				Only may repeat x1 per RSI protocol
+			</adult_dose>
+			<ped_dose>
+				None
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Vasopressin">
+		<indications>
+			<i>
+				Medication used in place of and/or in addition to epinephrine in the setting of cardiac arrest
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				40 units IV / IO, may replace first or second dose of epinephrine
+			</adult_dose>
+			<ped_dose>
+				None
+			</ped_dose>
+		</dosage>
+	</drug>
+	<drug name="Vecuronium">
+		<indications>
+			<i>
+				Long-acting non-depolarizing paralytic agent
+			</i>
+			<i>
+				Avoid in patients with chronic neuromuscular disease (e.g., muscular dystrophy)
+			</i>
+		</indications>
+
+		<dosage>
+			<adult_dose>
+				0.1 mg/kg IV / IO or 10 mg IV / IO, as per individual protocol
+			</adult_dose>
+			<adult_dose>
+				Only may repeat dosing as per individual protocol
+			</adult_dose>
+			<ped_dose>
+				None
+			</ped_dose>
+		</dosage>
+	</drug>
+</resources>

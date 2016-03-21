@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ncmedic.ncmedic"
+    android:installLocation="auto"
+    android:versionCode="23"
+    android:versionName="2.3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ncmedic.ncmedic.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ncmedic.ncmedic.ProtocolViewer"
+            android:label="@string/title_activity_protocol_viewer"
+            android:parentActivityName="com.ncmedic.ncmedic.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncmedic.ncmedic.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ncmedic.ncmedic.DrugPicker"
+            android:label="@string/title_activity_drug_picker"
+            android:parentActivityName="com.ncmedic.ncmedic.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncmedic.ncmedic.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ncmedic.ncmedic.PillId"
+            android:label="@string/title_activity_pill_id"
+            android:parentActivityName="com.ncmedic.ncmedic.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncmedic.ncmedic.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ncmedic.ncmedic.PillSearchResults"
+            android:label="@string/title_activity_pill_search_results"
+            android:parentActivityName="com.ncmedic.ncmedic.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncmedic.ncmedic.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ncmedic.ncmedic.MedevacTool"
+            android:label="@string/title_activity_medevac_tool"
+            android:parentActivityName="com.ncmedic.ncmedic.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncmedic.ncmedic.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ncmedic.ncmedic.Abbreviations"
+            android:label="@string/title_activity_abbreviations"
+            android:parentActivityName="com.ncmedic.ncmedic.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncmedic.ncmedic.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ncmedic.ncmedic.MenuSelector"
+            android:label="@string/title_activity_menu_selector"
+            android:parentActivityName="com.ncmedic.ncmedic.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncmedic.ncmedic.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ncmedic.ncmedic.CalculatorPage"
+            android:label="@string/title_activity_calculator_page"
+            android:parentActivityName="com.ncmedic.ncmedic.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncmedic.ncmedic.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ncmedic.ncmedic.AppSettings"
+            android:label="@string/title_activity_app_settings"
+            android:parentActivityName="com.ncmedic.ncmedic.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ncmedic.ncmedic.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

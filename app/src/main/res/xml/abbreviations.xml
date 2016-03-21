@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <abbrev
+        def="alert and oriented to person, place, and time"
+        item="A&amp;O x 3" >
+    </abbrev>
+    <abbrev
+        def="alert and oriented to person, place, time, and event"
+        item="A&amp;O x 4" >
+    </abbrev>
+    <abbrev
+        def="atrial fibrillation"
+        item="A-FIB" >
+    </abbrev>
+    <abbrev
+        def="abdominal aortic aneurysm"
+        item="AAA" >
+    </abbrev>
+    <abbrev
+        def="airway, breathing, circulation"
+        item="ABC" >
+    </abbrev>
+    <abbrev
+        def="abdomen (abdominal)"
+        item="ABD" >
+    </abbrev>
+    <abbrev
+        def="advanced cardiac life support"
+        item="ACLS" >
+    </abbrev>
+    <abbrev
+        def="above the knee amputation"
+        item="AKA" >
+    </abbrev>
+    <abbrev
+        def="advanced life support"
+        item="ALS" >
+    </abbrev>
+    <abbrev
+        def="against medical advice"
+        item="AMA" >
+    </abbrev>
+    <abbrev
+        def="altered mental status"
+        item="AMS" >
+    </abbrev>
+    <abbrev
+        def="amount"
+        item="AMT" >
+    </abbrev>
+    <abbrev
+        def="approximately"
+        item="APPROX" >
+    </abbrev>
+    <abbrev
+        def="aspirin"
+        item="ASA" >
+    </abbrev>
+    <abbrev
+        def="associated"
+        item="ASSOC" >
+    </abbrev>
+    <abbrev
+        def="blood glucose"
+        item="BG" >
+    </abbrev>
+    <abbrev
+        def="bilateral"
+        item="BILAT" >
+    </abbrev>
+    <abbrev
+        def="below the knee amputation"
+        item="BKA" >
+    </abbrev>
+    <abbrev
+        def="basic life support"
+        item="BLS" >
+    </abbrev>
+    <abbrev
+        def="bowel movement"
+        item="BM" >
+    </abbrev>
+    <abbrev
+        def="blood pressure"
+        item="BP" >
+    </abbrev>
+    <abbrev
+        def="breath sounds"
+        item="BS" >
+    </abbrev>
+    <abbrev
+        def="bag-valve-mask"
+        item="BVM" >
+    </abbrev>
+    <abbrev
+        def="caesarean section"
+        item="C-SECTION" >
+    </abbrev>
+    <abbrev
+        def="cervical spine"
+        item="C-SPINE" >
+    </abbrev>
+    <abbrev
+        def="complaint of (complains of)"
+        item="C/O" >
+    </abbrev>
+    <abbrev
+        def="cancer"
+        item="CA" >
+    </abbrev>
+    <abbrev
+        def="coronary artery bypass graft"
+        item="CABG" >
+    </abbrev>
+    <abbrev
+        def="coronary artery disease"
+        item="CAD" >
+    </abbrev>
+    <abbrev
+        def="catheter"
+        item="CATH" >
+    </abbrev>
+    <abbrev
+        def="chief complaint"
+        item="CC" >
+    </abbrev>
+    <abbrev
+        def="cephalic"
+        item="CEPH" >
+    </abbrev>
+    <abbrev
+        def="congestive heart failure"
+        item="CHF" >
+    </abbrev>
+    <abbrev
+        def="central nervous system"
+        item="CNS" >
+    </abbrev>
+    <abbrev
+        def="chronic obstructive pulmonary disease"
+        item="COPD" >
+    </abbrev>
+    <abbrev
+        def="chest pain"
+        item="CP" >
+    </abbrev>
+    <abbrev
+        def=" cardiopulmonary resuscitation"
+        item="CPR" >
+    </abbrev>
+    <abbrev
+        def="cerebrospinal fluid"
+        item="CSF" >
+    </abbrev>
+    <abbrev
+        def="cat scan"
+        item="CT" >
+    </abbrev>
+    <abbrev
+        def="cerebrovascular accident (stroke)"
+        item="CVA" >
+    </abbrev>
+    <abbrev
+        def="5% dextrose in water"
+        item="D5W" >
+    </abbrev>
+    <abbrev
+        def="diabetic ketoacidosis"
+        item="DKA" >
+    </abbrev>
+    <abbrev
+        def="do not resuscitate"
+        item="DNR" >
+    </abbrev>
+    <abbrev
+        def="dead on arrival"
+        item="DOA" >
+    </abbrev>
+    <abbrev
+        def="delirium tremens"
+        item="DT" >
+    </abbrev>
+    <abbrev
+        def="diagnosis"
+        item="Dx" >
+    </abbrev>
+    <abbrev
+        def="electrocardiogram"
+        item="ECG" >
+    </abbrev>
+    <abbrev
+        def="electroencephelogram"
+        item="EEG" >
+    </abbrev>
+    <abbrev
+        def="endotracheal"
+        item="ET" >
+    </abbrev>
+    <abbrev
+        def="ethanol (alcohol)"
+        item="ETOH" >
+    </abbrev>
+    <abbrev
+        def="endotracheal tube"
+        item="ETT" >
+    </abbrev>
+    <abbrev
+        def="external (extension)"
+        item="EXT" >
+    </abbrev>
+    <abbrev
+        def="foreign body"
+        item="FB" >
+    </abbrev>
+    <abbrev
+        def="flexion"
+        item="FLEX" >
+    </abbrev>
+    <abbrev
+        def="fracture"
+        item="Fx" >
+    </abbrev>
+    <abbrev
+        def="gram(s)"
+        item="g" >
+    </abbrev>
+    <abbrev
+        def="gastrointestinal"
+        item="GI" >
+    </abbrev>
+    <abbrev
+        def="gunshot wound"
+        item="GSW" >
+    </abbrev>
+    <abbrev
+        def="drops"
+        item="gtts" >
+    </abbrev>
+    <abbrev
+        def="gastrourinary"
+        item="GU" >
+    </abbrev>
+    <abbrev
+        def="gynecology (gynecological)"
+        item="GYN" >
+    </abbrev>
+    <abbrev
+        def="headache"
+        item="H/A" >
+    </abbrev>
+    <abbrev
+        def="head, eyes, ears, nose, throat"
+        item="HEENT" >
+    </abbrev>
+    <abbrev
+        def="heart rate (hour)"
+        item="HR" >
+    </abbrev>
+    <abbrev
+        def="hypertension"
+        item="HTN" >
+    </abbrev>
+    <abbrev
+        def="history"
+        item="Hx" >
+    </abbrev>
+    <abbrev
+        def="intracranial pressure"
+        item="ICP" >
+    </abbrev>
+    <abbrev
+        def="intensive care unit"
+        item="ICU" >
+    </abbrev>
+    <abbrev
+        def="intramuscular"
+        item="IM" >
+    </abbrev>
+    <abbrev
+        def="intravenous"
+        item="IV" >
+    </abbrev>
+    <abbrev
+        def="jugular vein distension"
+        item="JVD" >
+    </abbrev>
+    <abbrev
+        def="kilogram"
+        item="kg" >
+    </abbrev>
+    <abbrev
+        def="keep vein open"
+        item="KVO" >
+    </abbrev>
+    <abbrev
+        def="lumbar spine"
+        item="L-SPINE" >
+    </abbrev>
+    <abbrev
+        def="lumbarsacral spine"
+        item="L/S-SPINE" >
+    </abbrev>
+    <abbrev
+        def="labor and delivery"
+        item="L&amp;D" >
+    </abbrev>
+    <abbrev
+        def="lateral"
+        item="LAT" >
+    </abbrev>
+    <abbrev
+        def="pound"
+        item="lb" >
+    </abbrev>
+    <abbrev
+        def="left lower quadrant"
+        item="LLQ" >
+    </abbrev>
+    <abbrev
+        def="last mestrual period"
+        item="LMP" >
+    </abbrev>
+    <abbrev
+        def="level of consciousness (loss of consciousness)"
+        item="LOC" >
+    </abbrev>
+    <abbrev
+        def="lactated ringers"
+        item="LR" >
+    </abbrev>
+    <abbrev
+        def="left upper quadrant"
+        item="LUQ" >
+    </abbrev>
+    <abbrev
+        def="military anti-shock trousers"
+        item="MAST" >
+    </abbrev>
+    <abbrev
+        def="microgram(s)"
+        item="mcg" >
+    </abbrev>
+    <abbrev
+        def="medicine"
+        item="MED" >
+    </abbrev>
+    <abbrev
+        def="milligram(s)"
+        item="mg" >
+    </abbrev>
+    <abbrev
+        def="myocardial infarction (heart attack)"
+        item="MI" >
+    </abbrev>
+    <abbrev
+        def="minimum / minute"
+        item="min" >
+    </abbrev>
+    <abbrev
+        def="mental status"
+        item="MS" >
+    </abbrev>
+    <abbrev
+        def="mental status change"
+        item="MS" >
+    </abbrev>
+    <abbrev
+        def="morphine"
+        item="MSO4" >
+    </abbrev>
+    <abbrev
+        def="motor vehicle crash"
+        item="MVC" >
+    </abbrev>
+    <abbrev
+        def="nausea/vomiting"
+        item="N/V" >
+    </abbrev>
+    <abbrev
+        def="nausea/vomiting/diarrhea"
+        item="N/V/D" >
+    </abbrev>
+    <abbrev
+        def="no apparant distress"
+        item="NAD" >
+    </abbrev>
+    <abbrev
+        def="nasal cannula"
+        item="NC" >
+    </abbrev>
+    <abbrev
+        def="nebulizer"
+        item="NEB" >
+    </abbrev>
+    <abbrev
+        def="no known drug allergies"
+        item="NKDA" >
+    </abbrev>
+    <abbrev
+        def="non-rebreather"
+        item="NRB" >
+    </abbrev>
+    <abbrev
+        def="normal saline"
+        item="NS" >
+    </abbrev>
+    <abbrev
+        def="normal sinus rhythm"
+        item="NSR" >
+    </abbrev>
+    <abbrev
+        def="obstetrics/gynecology"
+        item="OB/GYN" >
+    </abbrev>
+    <abbrev
+        def="palpation"
+        item="PALP" >
+    </abbrev>
+    <abbrev
+        def="premature atrial contraction"
+        item="PAC" >
+    </abbrev>
+    <abbrev
+        def="pulmonary embolus"
+        item="PE" >
+    </abbrev>
+    <abbrev
+        def="pupils equal and reactive to light"
+        item="PEARL" >
+    </abbrev>
+    <abbrev
+        def="past medical history"
+        item="PMHx" >
+    </abbrev>
+    <abbrev
+        def="orally"
+        item="PO" >
+    </abbrev>
+    <abbrev
+        def="partial rebreather"
+        item="PRB" >
+    </abbrev>
+    <abbrev
+        def="as needed"
+        item="PRN" >
+    </abbrev>
+    <abbrev
+        def="patient"
+        item="PT" >
+    </abbrev>
+    <abbrev
+        def="premature ventricular contraction"
+        item="PVC" >
+    </abbrev>
+    <abbrev
+        def="right lower quadrant"
+        item="RLQ" >
+    </abbrev>
+    <abbrev
+        def="right upper quadrant"
+        item="RUQ" >
+    </abbrev>
+    <abbrev
+        def="medicine"
+        item="Rx" >
+    </abbrev>
+    <abbrev
+        def="reaction"
+        item="RXN" >
+    </abbrev>
+    <abbrev
+        def="status post"
+        item="S/P" >
+    </abbrev>
+    <abbrev
+        def="shortness of breath"
+        item="SOB" >
+    </abbrev>
+    <abbrev
+        def="subcutaneous"
+        item="SQ" >
+    </abbrev>
+    <abbrev
+        def="sinus tachycardia"
+        item="ST" >
+    </abbrev>
+    <abbrev
+        def="supraventricular tachycardia"
+        item="SVT" >
+    </abbrev>
+    <abbrev
+        def="symptom"
+        item="Sx" >
+    </abbrev>
+    <abbrev
+        def="seizure"
+        item="SZ" >
+    </abbrev>
+    <abbrev
+        def="thoracic spine"
+        item="T-SPINE" >
+    </abbrev>
+    <abbrev
+        def="temperature"
+        item="T" >
+    </abbrev>
+    <abbrev
+        def="transient ischemic attack"
+        item="TIA" >
+    </abbrev>
+    <abbrev
+        def="to keep open (refers to IV’s same as KVO)"
+        item="TKO" >
+    </abbrev>
+    <abbrev
+        def="treatment"
+        item="Tx" >
+    </abbrev>
+    <abbrev
+        def="upon our arrival"
+        item="UOA" >
+    </abbrev>
+    <abbrev
+        def="upper respiratory infection"
+        item="URI" >
+    </abbrev>
+    <abbrev
+        def="urinary tract infection"
+        item="UTI" >
+    </abbrev>
+    <abbrev
+        def="ventricular fibrillation"
+        item="VF" >
+    </abbrev>
+    <abbrev
+        def="vital signs"
+        item="VS" >
+    </abbrev>
+    <abbrev
+        def="ventricular tachycardia"
+        item="VT" >
+    </abbrev>
+    <abbrev
+        def="wandering atrial pacemaker"
+        item="WAP" >
+    </abbrev>
+    <abbrev
+        def="within normal limits"
+        item="WNL" >
+    </abbrev>
+    <abbrev
+        def="years old (years of age)"
+        item="YO (YOA)" >
+    </abbrev>
+    <abbrev
+        def="male"
+        item="M or ♂" >
+    </abbrev>
+    <abbrev
+        def="female"
+        item="F or ♀" >
+    </abbrev>
+    <abbrev
+        def="positive"
+        item="+" >
+    </abbrev>
+    <abbrev
+        def="negative"
+        item="-" >
+    </abbrev>
+    <abbrev
+        def="questionable"
+        item="\?" >
+    </abbrev>
+    <abbrev
+        def="-psychiatric"
+        item="Ψ" >
+    </abbrev>
+    <abbrev
+        def="approximately"
+        item="~" >
+    </abbrev>
+    <abbrev
+        def="greater than"
+        item=">" >
+    </abbrev>
+    <abbrev
+        def="less than"
+        item="&lt;" >
+    </abbrev>
+    <abbrev
+        def="equal"
+        item="=" >
+    </abbrev>
+    <abbrev
+        def="upper (increased)"
+        item="↑" >
+    </abbrev>
+    <abbrev
+        def="before"
+        item="a" >
+    </abbrev>
+    <abbrev
+        def="after"
+        item="p" >
+    </abbrev>
+    <abbrev
+        def="with"
+        item="c" >
+    </abbrev>
+    <abbrev
+        def="without"
+        item="s" >
+    </abbrev>
+    <abbrev
+        def="change"
+        item="∆" >
+    </abbrev>
+    <abbrev
+        def="left"
+        item="L" >
+    </abbrev>
+    <abbrev
+        def="right"
+        item="R" >
+    </abbrev>
+    <abbrev
+        def="lower (decreased)"
+        item="↓" >
+    </abbrev>
+    <abbrev
+        def="primary"
+        item="1°" >
+    </abbrev>
+    <abbrev
+        def="secondary"
+        item="2°" >
+    </abbrev>
+
+</resources>

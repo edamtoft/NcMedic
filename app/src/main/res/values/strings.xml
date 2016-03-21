@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NCmedic</string>
+    <string name="action_settings">Settings</string>
+    <string name="protocols">Protocols</string>
+    <string name="drugs">EMS Drugs</string>
+    <string name="calculators">Calculators</string>
+    <string name="title_activity_protocols">Protocols</string>
+    <string name="protocols_adt_general">Adult General</string>
+    <string name="protocols_adt_cardiac">Adult Cardiac</string>
+    <string name="protocols_adt_medical">Adult Medical</string>
+    <string name="protocols_adt_OB">Adult OB</string>
+    <string name="protocols_adt_trauma">Adult Trauma</string>
+    <string name="protocols_ped_general">Pediatric General</string>
+    <string name="protocols_ped_cardiac">Pediatric Cardiac</string>
+    <string name="protocols_ped_medical">Pediatric Medical</string>
+    <string name="protocols_ped_trauma">Pediatric Trauma</string>
+    <string name="protocols_com_cardiac">Combined General</string>
+    <string name="protocols_com_medical">Combined Environmental</string>
+    <string name="protocols_com_trauma">Combined Trauma</string>
+    <string name="title_activity_protocol_viewer">Protocol Viewer</string>
+    <string name="nextPage">Next Page &gt;</string>
+    <string name="prevPage">&lt; Previous Page</string>
+
+    <color name="ems_blue">#8ad5f0</color>
+    <color name="ems_light_blue">#a8dff4</color>
+
+    <string name="title_activity_drug_picker">EMS Drugs</string>
+    <string name="image_description">NC Medic Logo</string>
+
+    <string-array name="drugs">
+        <item>Acetaminophen (Tylenol)</item>
+        <item>Adenosine (Adenocard)</item>
+        <item>Albuterol</item>
+        <item>Amiodarone (Cordarone)</item>
+        <item>Aspirin</item>
+        <item>Atropine</item>
+        <item>Atropine/Pralidoxime Nerve Agent Kit</item>
+        <item>Calcium Chloride</item>
+        <item>Dextrose 10%, 25%, 50%</item>
+        <item>Diazapam (Valium)</item>
+        <item>Diltiazem (Cardizem)</item>
+        <item>Diphenhydramine (Benadryl)</item>
+        <item>Dopamine</item>
+        <item>Epinephrine 1:1,000</item>
+        <item>Epinephrine 1:10,000</item>
+        <item>Etomidate (Amidate)</item>
+        <item>Fentanyl (Sublimaze)</item>
+        <item>Furosemide (Lasix)</item>
+        <item>Glucagon</item>
+        <item>Oral Glucose</item>
+        <item>Haloperidol (Haldol)</item>
+        <item>Ibuprofin (Motrin)</item>
+        <item>Ipratropium (Atrovent)</item>
+        <item>Ketorolac (Toradol)</item>
+        <item>Lactated Ringer\'s Solution</item>
+        <item>Lidocaine</item>
+        <item>Magnesium Sulfate</item>
+        <item>Methylprednisone (Solu-medrol)</item>
+        <item>Midazolam</item>
+        <item>Morphine Sulfate</item>
+        <item>Naloxone (Narcan)</item>
+        <item>Normal Saline</item>
+        <item>Nitroglycerine</item>
+        <item>Nitrous Oxide</item>
+        <item>Ondanstron (Zofran)</item>
+        <item>Oxygen</item>
+        <item>Oxymetazoline (Afrin)</item>
+        <item>Pralidoxime (2-PAM)</item>
+        <item>Promethazine (Phenergan)</item>
+        <item>Rocuronium</item>
+        <item>Sodium Bicarbonate</item>
+        <item>Succinylcholine</item>
+        <item>Vasopressin (Pitressin)</item>
+        <item>Vecuronium</item>
+    </string-array>
+    <string-array name="menu_items_main">
+        <item>Protocols</item>
+        <item>EMS Drugs</item>
+        <item>Calculators</item>
+        <item>Tools</item>
+    </string-array>
+    <string-array name="menu_items_clacs">
+        <item>Glasgow C
+            oma Scale</item>
+        <item>Dosage Calculator</item>
+        <item>Fluid over Time</item>
+        <item>APGAR Score</item>
+        <item>King Airway Sizes</item>
+    </string-array>
+    <string-array name="menu_items_tools">
+        <item>Pill Identifier</item>
+        <item>Medevac Tool</item>
+        <item>Abbreviation</item>
+    </string-array>
+
+    <string name="drug_uses">Uses</string>
+    <string name="indications_contra">Indications and Contraindications</string>
+    <string name="adult_dosage">Adult Dosage</string>
+    <string name="ped_dosage">Pediatric Dosage</string>
+    <string name="ped_drug_list">Color Coded Pediatric Drugs</string>
+    <string name="pending">--</string>
+    <string name="drug_name">Drug Name</string>
+    <string name="trade_name">Trade Name</string>
+    <string name="title_activity_calculators">Calculators</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="desired_dose">Desired Dose:</string>
+    <string name="vial_calc_title">Calculate Dose from Vial</string>
+
+    <string-array name="dosage_units">
+        <item>mg</item>
+        <item>mg/kg</item>
+        <item>mcg/kg</item>
+    </string-array>
+    <string-array name="drip_sets">
+        <item>60gtts microdrip</item>
+        <item>20gtts drip set</item>
+        <item>15gtts drip set</item>
+        <item>10gtts drip set</item>
+    </string-array>
+    <string-array name="time_units">
+        <item>mins</item>
+        <item>hrs</item>
+    </string-array>
+
+    <string name="patient_weight">patient weight</string>
+
+    <string-array name="weight_units">
+        <item>lbs</item>
+        <item>kg</item>
+    </string-array>
+
+    <string name="vial">Vial</string>
+    <string name="drug_conc"></string>
+    <string name="per">per</string>
+    <string name="vial_volume"></string>
+    <string name="dosage">Dosage</string>
+    <string name="draw_up">Draw Up</string>
+    <string name="calculate">calculate</string>
+
+    <string-array name="volume_units">
+        <item>mL</item>
+        <item>cc</item>
+    </string-array>
+
+    <string name="title_activity_vial_calculator">Dosage Calculator</string>
+    <string name="dose">Dose:</string>
+    <string name="concentration">Concentration:</string>
+    <string name="volume">Volume:</string>
+    <string name="weight">PT Weight:</string>
+
+    <string-array name="mass_units">
+        <item>mg</item>
+        <item>mcg</item>
+    </string-array>
+
+    <color name="black">#222222</color>
+    <color name="grey">#a8a8a8</color>
+    <color name="grey_out">#222222bb</color>
+
+    <string name="pendindML">--mL</string>
+    <string name="one">1</string>
+    <string name="drip_calc">Drip Rate Calculator</string>
+    <string name="gcs_calc">GCS Calculator</string>
+    <string name="vial_calc">Drug from Vial</string>
+    <string name="title_activity_gcs_calculator">Glasgow Coma Scale</string>
+    <string name="title_activity_drip_calculator">Fluid Over Time</string>
+    <string name="gcs">Glasgow Coma Scale</string>
+    <string name="gcs_best_eye">Best Eye Response</string>
+    <string name="gcs_best_verbal">Best Verbal Response</string>
+    <string name="gcs_pending">--</string>
+    <string name="gcs_best_motor">Best Motor Response</string>
+
+    <string-array name="gcs_eye">
+        <item>Opens Eyes Spontantaneously</item>
+        <item>Opens Eyes to Voice</item>
+        <item>Opens Eyes to Pain</item>
+        <item>Does not Open Eyes</item>
+    </string-array>
+    <string-array name="gcs_verbal">
+        <item>Oriented</item>
+        <item>Confused, Disoriented</item>
+        <item>Innapropreate Words</item>
+        <item>Incomprehensible Sounds</item>
+        <item>No Sounds</item>
+    </string-array>
+    <string-array name="gcs_motor">
+        <item>Obeys Commands</item>
+        <item>Localizes Pain</item>
+        <item>Withdrawal from Pain</item>
+        <item>Flexion to Pain</item>
+        <item>Extension to Pain</item>
+        <item>No Movement</item>
+    </string-array>
+
+    <string name="drip_calc_title">Drip Rate Calculator</string>
+    <string name="infusion_volume">Infusion Volume:</string>
+    <string name="drip_set">Drip Set:</string>
+    <string name="infuse_over">Infuse Over:</string>
+    <string name="drips_per_minute">Drips per minute:</string>
+    <string name="pending_drip">--gtts/min</string>
+
+    <color name="background">#e0e0e0</color>
+
+    <string name="pending_drop_inverse">1 drip every –– seconds</string>
+    <string name="title_activity_apgar_calculator">APGAR Score</string>
+    <string name="fluid_over_time">Fluid over Time</string>
+    <string name="bag_volume">Bag Volume:</string>
+    <string name="dosage_calculator">Dosage Calculator</string>
+    <string name="on_hand">Drug on Hand:</string>
+    <string name="apgar_score">APGAR Score</string>
+    <string name="apgar_appearance">Appearance</string>
+    <string name="apgar_pulse">Pulse Rate</string>
+    <string name="apgar_grimace">Grimace/Irritability</string>
+    <string name="apgar_activity">Activity</string>
+    <string name="apgar_resp">Respiratory Effort</string>
+
+    <string-array name="apgar_appearance">
+        <item>blue/pale all over</item>
+        <item>blue at extremities</item>
+        <item>no cyanosis</item>
+    </string-array>
+    <string-array name="apgar_pulse">
+        <item>absent</item>
+        <item>less than 100</item>
+        <item>greater than 100</item>
+    </string-array>
+    <string-array name="apgar_grimace">
+        <item>no response to stimulation</item>
+        <item>feeble cry when stimulated</item>
+        <item>string cry or when stimulated</item>
+    </string-array>
+    <string-array name="apgar_activity">
+        <item>none</item>
+        <item>some flexion</item>
+        <item>flexed arms and legs</item>
+    </string-array>
+    <string-array name="apgar_respirations">
+        <item>none</item>
+        <item>weak, irregular, gasping</item>
+        <item>strong, lusty cry</item>
+    </string-array>
+
+    <string name="pending_apgar">--</string>
+    <string name="title_activity_king_calculator">King Airway Calculator</string>
+    <string name="height_prompt">Patient Height:</string>
+
+    <string-array name="king_heights">
+        <item>Above 6 feet</item>
+        <item>5–6 feet</item>
+        <item>4–5 feet</item>
+        <item>35–45 inches</item>
+        <item>41–51 inches</item>
+    </string-array>
+
+    <string name="king_size">King Airway Size:</string>
+    <string name="king_size_default">Size 5</string>
+
+    <color name="white">#ffffff</color>
+
+    <string name="inflate_to_default">Inflate with:</string>
+    <string name="king_airway">King Airway Sizes</string>
+    <string name="protocol_name_prompt">Enter Protocol Name</string>
+
+    <string-array name="all_protocols">
+        <item>1 Universal Patient Care</item>
+        <item>2 Adult Airway</item>
+        <item>3 Adult, Failed Airway</item>
+        <item>4 Airway, Drug Assisted Intubation</item>
+        <item>5 Back Pain</item>
+        <item>6 Behavioral</item>
+        <item>7 Pain Control: Adult</item>
+        <item>8 Scene Rehabilitation: General</item>
+        <item>9 Scene Rehabilitation: Responder</item>
+        <item>11 Adult Asystole / Pulseless Electrical Activity</item>
+        <item>12 Bradycardia; Pulse Present</item>
+        <item>13 Cardiac Arrest; Adult</item>
+        <item>14 Chest Pain: Cardiac and STEMI</item>
+        <item>15 CHF / Pulmonary Edema</item>
+        <item>16 Adult Tachycardia - Narrow Complex (&lt;= 0.11 sec)</item>
+        <item>17 Adult Tachycardia - Wide Complex (&gt;= 0.12 sec)</item>
+        <item>18 Ventricular Fibrillation Pulseless Ventricular Tachycardia</item>
+        <item>19 Post Resuscitation</item>
+        <item>20 Induced Hypothermia</item>
+        <item>21 Team Focused CPR</item>
+        <item>23 Abdominal Pain</item>
+        <item>24 Allergic Reaction / Anaphylaxis</item>
+        <item>25 Altered Mental Status</item>
+        <item>26 Adult COPD / Asthma</item>
+        <item>27 Diabetic; Adult</item>
+        <item>28 Dialysis / Renal Failure</item>
+        <item>29 Hypertension</item>
+        <item>30 Hypotension / Shock</item>
+        <item>31 Overdose / Toxic Ingestion</item>
+        <item>32 Seizure</item>
+        <item>33 Suspected Stroke</item>
+        <item>34 Syncope</item>
+        <item>35 Vomiting and Diarrhea</item>
+        <item>36 Activase / t-PA IV Transfer</item>
+        <item>37 Childbirth / Labor</item>
+        <item>38 Newly Born</item>
+        <item>39 Obstetrical Emergency</item>
+        <item>40 Adult Thermal Burn</item>
+        <item>41 Head Trauma</item>
+        <item>42 Multiple Trauma</item>
+        <item>44 Pediatric Airway</item>
+        <item>45 Pediatric Failed Airway</item>
+        <item>46 Pediatric Pain Control</item>
+        <item>48 Pediatric Asytole / PEA</item>
+        <item>49 Pediatric Bradycardia</item>
+        <item>50 Pediatric Pulmonary Edema / CHF</item>
+        <item>51 Pediatric Pulseless Arrest</item>
+        <item>52 Pediatric Tachycardia</item>
+        <item>53 Pediatric Ventricular Fibrillation Pulseless Ventricular Tachycardia</item>
+        <item>54 Pediatric Post Resuscitation</item>
+        <item>56 Pediatric Allergic Reaction</item>
+        <item>57 Pediatric Altered Mental Status</item>
+        <item>58 Pediatric Diabetic</item>
+        <item>59 Pediatric Hypotension / Shock</item>
+        <item>60 Pediatric Overdoes / Toxic Ingestion</item>
+        <item>61 Pediatric Respiratory Distress</item>
+        <item>62 Pediatric Seizure</item>
+        <item>63 Pediatric Vomiting / Diarrhea</item>
+        <item>65 Pediatric Head Trauma</item>
+        <item>66 Pediatric Multiple Trauma</item>
+        <item>67 Pediatric Thermal Burn</item>
+        <item>69 Triage</item>
+        <item>70 Dental Problems</item>
+        <item>71 Epistaxis</item>
+        <item>72 Fever / Infection Control</item>
+        <item>73 Police Custody</item>
+        <item>74 Emergencies Involving Indwelling Central Lines</item>
+        <item>75 Respiratory Distress With a Tracheostomy Tube</item>
+        <item>76 Emergencies Involving Ventilators</item>
+        <item>78 Bites and Envenomations</item>
+        <item>79 Carbon Monoxide / Cyanide</item>
+        <item>80 Drowning / Submersion Injury</item>
+        <item>81 Hyperthermia</item>
+        <item>82 Hypothermia</item>
+        <item>83 Marine Envenomations / Injury</item>
+        <item>84 WMD-Nerve Agent Protocol</item>
+        <item>86 Blast Injury / Incident</item>
+        <item>87 Chemical and Electrical Burn</item>
+        <item>88 Crush Syndrome Trauma</item>
+        <item>89 Extremity Trauma</item>
+        <item>90 Selective Spinal Immobilization</item>
+        <item>91 Radiation Incident</item>
+        <item>100 Suspected Ebola</item>
+        <item>101 Ebola Unit Decontamination</item>
+        <item>102 Ebola Safe Transportation of Remains</item>
+    </string-array>
+
+    <string name="enterDrugName">Enter Drug Name</string>
+    <string name="about">About</string>
+    <string name="title_activity_pill_id">Pill Identifier</string>
+    <string name="imprint">Enter imprint here</string>
+    <string name="shape_prompt">Shape:</string>
+    <string name="imprint_prompt">Imprint:</string>
+    <string name="color_prompt">Color:</string>
+    <string name="size_prompt">Size:</string>
+
+    <color name="ems_dark_blue">#0099cc</color>
+
+    <string name="scoring_prompt">Scoring:</string>
+    <string name="scoring">Scoring</string>
+
+    <string-array name="drug_shapes">
+        <item>C48348</item>
+        <item>C48345</item>
+        <item>C48350</item>
+        <item>C48347</item>
+        <item>C48353</item>
+        <item>C48336</item>
+        <item>C48346</item>
+        <item>C48343</item>
+        <item>C48338</item>
+        <item>C48341</item>
+        <item>C48339</item>
+        <item>C48337</item>
+        <item>C48351</item>
+        <item>C48344</item>
+        <item>C48349</item>
+        <item>C48335</item>
+        <item>C48352</item>
+        <item>C48340</item>
+    </string-array>
+    <string-array name="drug_colors">
+        <item>C48323</item>
+        <item>C48333</item>
+        <item>C48332</item>
+        <item>C48324</item>
+        <item>C48329</item>
+        <item>C48331</item>
+        <item>C48328</item>
+        <item>C48327</item>
+        <item>C48326</item>
+        <item>C48334</item>
+        <item>C48325</item>
+        <item>C48330</item>
+    </string-array>
+    <string-array name="drug_colors_names">
+        <item>Any Color</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Turquoise</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string name="tools">Tools</string>
+    <string name="any_size">Any Size</string>
+    <string name="any_score">Any Scoring</string>
+    <string name="search_pills">Search Pills</string>
+    <string name="title_activity_pill_search_results">Pill Search Results</string>
+    <string name="pill_shape">Pill Shape</string>
+    <string name="pill_image">Pill Image</string>
+    <string name="ingredients">Drug Ingredients</string>
+    <string name="dosages">Ingredient Dosages</string>
+    <string name="title_activity_tools">Tools</string>
+    <string name="pill_id">Pill Identifier</string>
+    <string name="imprint_instr_title">Separate imprints with space</string>
+    <string name="shape_instr_title">Scroll for more shapes</string>
+    <string name="scoring_instr_title">Number of divisions for splitting pill</string>
+    <string name="medevac">Medevac Tool</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="clock_pending">00:00:00</string>
+    <string name="title_activity_medevac_tool">Medevac Tool</string>
+    <string name="current_location">Current Location:</string>
+    <string name="location_accuracy">Accuracy</string>
+    <string name="gps_info">GPS Info:</string>
+    <string name="sens_sms">Send via SMS</string>
+    <string name="signal">GPS Strength:</string>
+    <string name="search_hint">Search Drug or Protocol</string>
+    <string name="search_for_protocols">Search for protocols</string>
+    <string name="title_activity_protocol_search">Protocols</string>
+    <string name="title_activity_mulipage_protocol_viewer">MulipageProtocolViewer</string>
+    <string name="search">Search</string>
+    <string name="abbrev">Medical Abbreviations</string>
+    <string name="title_activity_abbreviations">Approved Abbreviations</string>
+    <string name="filter_abbrev">Filter Abbreviations</string>
+    <string name="title_activity_protocol_viewer2">Protocol Viewer</string>
+    <string name="title_activity_menu_selector">Menu Selector</string>
+    <string name="title_activity_drug_search">EMS Drugs</string>
+    <string name="drug_search_prompt">Search for drugs</string>
+    <string name="title_activity_calculator_page">CalculatorPage</string>
+    <string name="title_activity_app_settings">AppSettings</string>
+    <string name="activation_code_key">NCMEDIC_PREFERENCE_ACTIVATION_CODE</string>
+    <string name="background_preference_key">NCMEDIC_BACKGROUND_PREFERENCE</string>
+    <string name="poicon_preference_key">NCMEDIC_POISON_CONTROL_PREFERENCE</string>
+      <string name="longclick_preference_key">NCMEDIC_LONGCLICK_PREFERENCE</string>
+    <string name="chemtrec_preference_key">NCMEDIC_CHEMTREC_PREFERENCE</string>
+    <string name="hospital_number_preference_key">NCMEDIC_HOSPITAL_NUMBER_PREFERENCE</string>
+    <string name="dispatch_number_preference_key">NCMEDIC_DISPATCH_NUMBER_PREFERENCE</string>
+    <string name="app_background_title">Background Color</string>
+    <string name="activation_state_title">Pro Features:</string>
+    <string name="activation_code_title">Activation Code:</string>
+    <string name="activate_now">Activate Now</string>
+    <string name="activated_false">Not Activated</string>
+    <string name="activated_true">Activated</string>
+    <string name="shared_preferences_key">NCMEDIC_PREFERENCES_KEY</string>
+
+    <string-array name="backgrounds">
+        <item>Blue</item>
+        <item>Grey</item>
+    </string-array>
+
+    <string name="background">Background Color:</string>
+    <string name="med_con_number">Hospital:</string>
+    <string name="dispatch_number">Dispatch:</string>
+    <string name="phone_numbers">Phone Numbers</string>
+    <string name="pro_features">Activation</string>
+    <string name="appearance">Appearance</string>
+    <string name="poison_ctrl_include">Show Poison Control:</string>
+    <string name="chemtrec_include">Show CHEMTREC:</string>
+    <string name="hospital">Hospital</string>
+    <string name="dispatch">Dispatch</string>
+    <string name="poicon">Poison Control</string>
+    <string name="chemtrec">CHEMTREC</string>
+    <string name="require_longclick">Require Long Click to Call:</string>
+
+</resources>

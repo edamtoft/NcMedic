@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape android:shape="rectangle">
+
+            <gradient xmlns:android="http://schemas.android.com/apk/res/android"
+                android:angle="270"
+                android:endColor="@color/ems_dark_blue"
+                android:startColor="@color/ems_blue"></gradient>
+
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/diagonals"
+            android:tileMode="repeat"
+            android:dither="true"
+            ></bitmap>
+    </item>
+</layer-list>
